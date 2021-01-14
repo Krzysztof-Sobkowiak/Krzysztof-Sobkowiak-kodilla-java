@@ -5,7 +5,7 @@ import java.io.*;
 
 public interface Shape {
 
-    String shapeName();
+    String getShapeName();
 
-    double fieldSurfaceFigure();
+    double getField();
 }

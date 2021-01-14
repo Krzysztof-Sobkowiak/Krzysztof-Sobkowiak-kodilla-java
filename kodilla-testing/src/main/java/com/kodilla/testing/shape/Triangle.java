@@ -16,12 +16,12 @@ public class Triangle implements Shape {
     }
 
     @Override
-    public String shapeName() {
+    public String getShapeName() {
         return (this.getClass().getSimpleName());
     }
 
     @Override
-    public double fieldSurfaceFigure() {
+    public double getField() {
         triangleField = (triangleBase * triangleHeight) / 2;
         return this.triangleField;
     }

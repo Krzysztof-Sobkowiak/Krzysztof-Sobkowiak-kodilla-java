@@ -14,12 +14,12 @@ public class Circle implements Shape {
     }
 
     @Override
-    public String shapeName() {
+    public String getShapeName() {
         return (this.getClass().getSimpleName());
     }
 
     @Override
-    public double fieldSurfaceFigure() {
+    public double getField() {
         circleField = valuePi * (radiusOfCircle * radiusOfCircle);
         return this.circleField;
     }

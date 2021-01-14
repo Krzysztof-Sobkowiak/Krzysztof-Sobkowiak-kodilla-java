@@ -13,12 +13,12 @@ public class Square implements Shape {
     }
 
     @Override
-    public String shapeName() {
+    public String getShapeName() {
         return (this.getClass().getSimpleName());
     }
 
     @Override
-    public double fieldSurfaceFigure() {
+    public double getField() {
         SquareField = (sideOfSquare * sideOfSquare);
         return this.SquareField;
     }
