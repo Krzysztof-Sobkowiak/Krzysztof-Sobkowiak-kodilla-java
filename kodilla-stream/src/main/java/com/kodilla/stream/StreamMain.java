@@ -29,10 +29,10 @@ public class StreamMain{
 
 
         /*    BookDirectory theBookDirectory = new BookDirectory();
-        String theResultStringOfBooks = theBookDirectory.getList().stream()  // [1]
+        String theResultStringOfBooks = theBookDirectory.getList().stream()
                 .filter(book -> book.getYearOfPublication() > 2005)
                 .map(Book::toString)
-                .collect(Collectors.joining(",\n","<<",">>"));                    // [2]
+                .collect(Collectors.joining(",\n","<<",">>"));
 
         System.out.println(theResultStringOfBooks);
 
@@ -61,12 +61,12 @@ public class StreamMain{
         System.out.println(text6);
         System.out.println("\n=================================================================================================\n");
 
-          ExpressionExecutor expressionExecutor = new ExpressionExecutor();       // [5]
+          ExpressionExecutor expressionExecutor = new ExpressionExecutor();
 
         System.out.println("Calculating expressions with lambdas");
-        expressionExecutor.executeExpression(10, 5, ( a, b ) -> a + b);           // [6]
-        expressionExecutor.executeExpression(10, 5, ( a, b ) -> a - b);           // [7]
-        expressionExecutor.executeExpression(10, 5, ( a, b ) -> a * b);           // [8]
+        expressionExecutor.executeExpression(10, 5, ( a, b ) -> a + b);
+        expressionExecutor.executeExpression(10, 5, ( a, b ) -> a - b);
+        expressionExecutor.executeExpression(10, 5, ( a, b ) -> a * b);
         expressionExecutor.executeExpression(10, 5, ( a, b ) -> a / b);
 
         System.out.println("\nCalculating expressions with method references");
