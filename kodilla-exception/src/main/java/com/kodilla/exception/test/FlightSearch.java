@@ -30,7 +30,7 @@ public class FlightSearch{
         } catch (RouteNotFoundException e){
             System.out.println("Error # " + e);
         } finally {
-            System.out.println("Process flight search was done");
+            System.out.println("Process flight search was done. \nFind new flight.");
         }
 
         try {
@@ -39,7 +39,7 @@ public class FlightSearch{
         } catch (RouteNotFoundException e){
             System.out.println("Error # " + e);
         } finally {
-            System.out.println("Process flight search was done");
+            System.out.println("Process flight search was done. \nFind new flight.");
         }
     }
 }
