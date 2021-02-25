@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.stream.array.ArrayOperationsTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-28T10:32:44" hostname="WIN-KOMPUTER" time="0.093">
+  <properties/>
+  <testcase name="Calculating the numbers of a 20 element array" classname="com.kodilla.stream.array.ArrayOperationsTestSuite" time="0.093"/>
+  <system-out><![CDATA[155
+15
+11
+156
+223
+114
+112
+455
+489
+623
+156
+12
+78
+98
+65
+21
+156
+789
+1520
+102
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

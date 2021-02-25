@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-21T11:39:48" hostname="WIN-KOMPUTER" time="0.049">
+  <properties/>
+  <testcase name="When create resultList with emptyList, then resultList should return empty list" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.043"/>
+  <testcase name="When created normalList with numbers, then result should return list without even numbers" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.004"/>
+  <system-out><![CDATA[Test Suite: begin
+Test Case: begin
+Testing empty list[]
+Test Case: end
+Test Case: begin
+Testing the list without even numbers [2, 4, 6, 8, 10]
+Test Case: end
+Test Suite: end
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
