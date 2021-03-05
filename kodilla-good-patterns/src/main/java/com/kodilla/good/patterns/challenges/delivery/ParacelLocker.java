@@ -8,14 +8,11 @@ import static com.kodilla.good.patterns.challenges.delivery.ShippingDetails.ship
 public class ParacelLocker implements DeliveryService {
 
     public boolean deliveryTo(final User user, boolean sendMessage,boolean paracel,boolean post, boolean courier) {
-        if(sendMessage) {
+        if(sendMessage && paracel && !post && !courier) {
             System.out.println("=== Paracel Locker Shipping Information ===");
             System.out.println("We send information with the order to e-mail and telephone");
+            System.out.println();
 
-            return true;
-        }
-
-        if(paracel && !post && !courier) {
             System.out.println("=== Paracel Locker ===");
             shippingDetails(user);
         }

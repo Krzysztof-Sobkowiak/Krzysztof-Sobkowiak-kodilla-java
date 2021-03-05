@@ -9,14 +9,11 @@ public class CourierDelivery implements DeliveryService {
 
     public boolean deliveryTo(final User user, boolean sendMessage,boolean paracel,boolean post, boolean courier) {
 
-        if(sendMessage) {
+        if(sendMessage && courier && !paracel && !post) {
             System.out.println("=== Courier Shipping Information ===");
             System.out.println("We send information with the order to e-mail and telephone");
+            System.out.println();
 
-            return true;
-        }
-
-        if(courier && !paracel && !post) {
             System.out.println("=== Courier Delivery ===");
             shippingDetails(user);
         }

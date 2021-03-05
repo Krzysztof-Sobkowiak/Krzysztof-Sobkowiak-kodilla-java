@@ -9,14 +9,11 @@ public class PostOffice implements DeliveryService {
 
     public boolean deliveryTo(final User user, boolean sendMessage, boolean paracel, boolean post, boolean courier) {
 
-        if(sendMessage) {
+        if(sendMessage && post && !courier && !paracel) {
             System.out.println("=== Order Shipping Information ===");
             System.out.println("We send information with the order to e-mail and telephone");
+            System.out.println();
 
-            return true;
-        }
-
-        if(post && !courier && !paracel) {
             System.out.println("=== Post Office ===");
             shippingDetails(user);
         }
