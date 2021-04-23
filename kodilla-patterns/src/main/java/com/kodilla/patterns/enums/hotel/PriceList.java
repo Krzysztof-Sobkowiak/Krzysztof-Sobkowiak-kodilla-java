@@ -1,4 +1,4 @@
-package com.kodilla.patterns.hotel;
+package com.kodilla.patterns.enums.hotel;
 
 import java.math.BigDecimal;
 import java.util.Map;
